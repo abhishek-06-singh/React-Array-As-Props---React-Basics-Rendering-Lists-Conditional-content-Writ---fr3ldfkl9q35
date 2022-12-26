@@ -10,7 +10,7 @@ const Join = (props) => {
       {
         /* Access prop 'words' and print it using .join like words.join(',')*/
 
-        props.words.join("")
+        props.words.join(",")
       }
     </div>
   );
